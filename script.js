@@ -13,7 +13,7 @@ let pontuacao;
 
 //Funções
 
-function gerarNumAleatorio(){
+function gerarNumAleatorio(){ //de 1 a 50
     return Math.floor(Math.random() * 50) + 1;
 }
 
