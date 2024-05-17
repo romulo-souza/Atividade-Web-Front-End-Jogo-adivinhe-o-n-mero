@@ -1,0 +1,135 @@
+body{
+    height: 100vh; /* 100% da altura da viewport */
+    margin: 0; /* Remover margens padrão do body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CSS para o menu*/
+#menu{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(109, 125, 228);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#menu h2{
+    text-align: center;
+}
+
+.regras-numero{
+    font-weight: 600;
+
+}
+#regras-paragrafo{
+    font-weight: 600;
+}
+
+#iniciar-jogo{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/*CSS para tela do jogo*/
+#jogo{
+    background-color: lightblue;
+    padding: 25px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(109, 125, 228);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#adivinhar{
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#input{
+    height: 25px;
+    border-style: solid;
+    border-color: rgb(109, 125, 228);
+}
+
+body{
+    height: 100vh; /* 100% da altura da viewport */
+    margin: 0; /* Remover margens padrão do body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CSS para o menu*/
+#menu{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(109, 125, 228);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#menu h2{
+    text-align: center;
+}
+
+.regras-numero{
+    font-weight: 600;
+
+}
+#regras-paragrafo{
+    font-weight: 600;
+}
+
+#iniciar-jogo{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/*CSS para tela do jogo*/
+#jogo{
+    background-color: lightblue;
+    padding: 25px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(109, 125, 228);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#adivinhar{
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#input{
+    height: 25px;
+    border-style: solid;
+    border-color: rgb(109, 125, 228);
+}
+#mensagem{
+    font-weight: 600;
+}
+
+#dica{
+    color: blue;
+}
+
+#pontuacao{
+    font-size: large;
+    font-weight: bold;
+}

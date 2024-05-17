@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo - Adivinhe o número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div id="menu">
+             <!-- Conteúdo do menu -->
+            <h2>Bem-vindo ao jogo Adivinhe o número!</h2>
+            <p id="regras-paragrafo">Regras do jogo:</p>
+            <p><span class="regras-numero">1.</span> Entre com um número pertencente ao intervalo [1, 50] para tentar adivinhar o número gerado pelo computador;</p>
+            <p><span class="regras-numero">2.</span> Para cada acerto, você ganha 15 pontos, para cada tentativa errada você perde 1 ponto.</p>
+            <p>Boa sorte!</p>
+            <button id="iniciar-jogo">Iniciar Jogo</button>
+        </div>
+
+        <div id="jogo" style="display: none;">
+            <!-- Conteúdo do jogo -->
+            <label for="input">Adivinhe o número (entre 1 e 50):</label>
+            <input type="number" id="input" min="1" max="50">
+            <button id="adivinhar">Adivinhar</button>
+            <p id="dica"></p>
+            <p id="mensagem"></p>
+            <p id="pontuacao"></p>
+        </div>
+    
+        <script src="script.js"></script>
+</body>
+</html>
